@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Derby Game</title>
+</head>
+
+<body>
+    <div id="setup">
+        <label for="numberOfPlayers">Enter Number of Players:</label>
+        <input type="number" name="numberOfPlayers" id="numberOfPlayers">
+        <button id="generatePlayers">Generate Players</button>
+        <div id="playerContainer"></div>
+        <button id="startGame" style="visibility: hidden">Start Game</button>
+    </div>
+    <div id="play" style="visibility: hidden">
+        <div id="timer"></div>
+        <table style="width: 100%;" id="playerTrack">
+            <thead>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </thead>
+        </table>
+    </div>
+    <div id="winner" class="winnerMsg"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid;
+    height: 40px
+  }
+
+  .winnerMsg {
+    visibility: hidden;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    border: 1px solid black;
+    padding: 5px;
+  }
